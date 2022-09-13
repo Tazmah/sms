@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>School Management</h1>
+    <main>
+        <div class="container container__inputs">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" required placeholder="First Name">
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required placeholder="Last Name">
+
+            <label for="first_name">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Email">
+
+            <label for="first_name">Test 1</label>
+            <input type="number" id="test_1" name="test_1" required placeholder="Test 1">
+
+            <label for="test_2">Test 2</label>
+            <input type="number" id="test_2" name="test_1" required placeholder="Test 2">
+
+            <label for="total">Total</label>
+            <input type="number" id="total" name="total" required placeholder="Total" readonly>
+
+
+            <button class="btn" id="button">Submit</button>
+        </div>
+        <div class="wrap">
+            <table border="1" id="table">
+                <tr>
+                    <!-- <th>S/N</th> -->
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Test 1</th>
+                    <th>Test 2</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
